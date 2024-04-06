@@ -22,8 +22,12 @@
         </div>
         <div class="logo-text">
           <p>
-            Photo by <a href="http://">Halie West</a> on
-            <a href="http://">Unsplash</a>
+            Photo by
+            <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on
+            <a
+              href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA"
+              >Unsplash</a
+            >
           </p>
         </div>
       </section>
@@ -37,7 +41,7 @@
           <p>You <i>know</i> you want to.</p>
           <p>Let's do this!</p>
         </div>
-        <form action="">
+        <form action="#" id="loginForm">
           <div class="box">
             <label for="first_name">first name</label>
             <input type="text" id="first_name" />
@@ -59,12 +63,16 @@
           <div class="box">
             <label for="password">password</label>
             <input type="password" id="password" />
+            <label id="error"></label>
           </div>
           <div class="box">
             <label for="confirm_password">confirm password</label>
             <input type="password" id="confirm_password" />
           </div>
+          <hr />
+          <button type="submit">Create Account</button>
         </form>
+        <p>Already have an account? <a href="http://">Log in</a></p>
       </section>
     </div>
 
