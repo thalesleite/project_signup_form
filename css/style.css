@@ -77,5 +77,6 @@ body {
 
   .form {
     flex-grow: 2;
+    margin: 150px 50px 150px 50px;
   }
 }
